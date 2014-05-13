@@ -1,7 +1,7 @@
 gqt
 ===
 
-A C++ GUI Framework Written by Like Java(Easily),Run as C++ (High-Performance),And Show Perfect!
+A C++ GUI Framework Written by Like Java(Easily),Run as C++ (High-Performance),And Show Perfect![QQ讨论群：101189702 （请注明GQT或Qt，C++等）]
 
 ![image](http://dl2.iteye.com/upload/attachment/0094/0527/f5e7f443-0991-3d9a-8304-02d056e101ee.png)
 
@@ -16,8 +16,6 @@ A C++ GUI Framework Written by Like Java(Easily),Run as C++ (High-Performance),A
 > 访问淘宝代码托管地址：http://code.taobao.org/
 
 > 项目svn地址：http://code.taobao.org/p/gqt/src/
-
-> QQ讨论群：101189702 （请注明GQT或Qt，C++等）
 
 > 设计文档：http://goo.gl/MM9E7j
 
