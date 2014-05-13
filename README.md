@@ -7,7 +7,9 @@ A C++ GUI Framework Written by Like Java(Easily),Run as C++ (High-Performance),A
 
 编译步骤：
 > VeryUI工程用VS2008编译，编译后的文件会被放在bin目录下；
+
 > 用Qt Creator打开根目录下gqt.pro文件，导入设置，让编译后的程序自定义步骤运行sim2_dll_release.bat脚本，这样Qt编译的文件也会被自动放到bin目录下；
+
 > 打开bin下VeryUIFrame.exe即可看到运行效果；
 
 ###开源项目地址
