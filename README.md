@@ -1,35 +1,73 @@
-gqt
-===
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-A C++ GUI Framework Written by Like Java(Easily),Run as C++ (High-Performance),And Show Perfect![QQ讨论群：101189702 （请注明GQT或Qt，C++等）]
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-![image](http://dl2.iteye.com/upload/attachment/0094/0527/f5e7f443-0991-3d9a-8304-02d056e101ee.png)
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-编译步骤：
-> VeryUI工程用VS2008编译，编译后的文件会被放在bin目录下；
+## Description
 
-> 用Qt Creator打开根目录下gqt.pro文件，导入设置，让编译后的程序自定义步骤运行sim2_dll_release.bat脚本，这样Qt编译的文件也会被自动放到bin目录下；
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-> 打开bin下VeryUIFrame.exe即可看到运行效果；
+## Installation
 
-###开源项目地址
-> 访问淘宝代码托管地址：http://code.taobao.org/
+```bash
+$ yarn install
+```
 
-> 项目svn地址：http://code.taobao.org/p/gqt/src/
+## Running the app
 
-> 设计文档：http://goo.gl/MM9E7j
+```bash
+# development
+$ yarn run start
 
-> PPT介绍（English）：http://goo.gl/pEKiE9
+# watch mode
+$ yarn run start:dev
 
+# production mode
+$ yarn run start:prod
+```
 
-###项目目标
-> 让Java程序员编写高性能的桌面客户端程序；
+## Test
 
-> 无需编写C++代码即可实现C++界面；
+```bash
+# unit tests
+$ yarn run test
 
-> 框架底层封装好桌面开发的常用功能；
+# e2e tests
+$ yarn run test:e2e
 
-> 进程通信，与第三方程序整合都会让你变得非常轻松；
+# test coverage
+$ yarn run test:cov
+```
 
-> 所有UI模块即插即用，统一配置在app.xml里；
+## Support
 
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
